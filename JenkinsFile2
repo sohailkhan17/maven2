@@ -1,5 +1,4 @@
-pipeline
-{ 
+pipeline{ 
   agent any
   stages
    {
@@ -7,7 +6,7 @@ pipeline
 	 {
 	  steps
 	   {
-	    git 'https://github.com/prasadcloud/maven2.git'
+	    git 'https://github.com/sohailkhan17/maven2.git'
 		}
 	 }
 	 stage('ContinuousBuild')
