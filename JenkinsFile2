@@ -37,7 +37,7 @@ pipeline{
 	  steps
 	   {
 	    input message: 'Approve delivery of code', submitter: 'srini'
-	    deploy adapters: [tomcat9(credentialsId: 'bfda19c6-2e25-4428-b56e-dd079052d2e7', path: '', url: 'http://172.31.4.50:8080')], contextPath: 'prodapp5', war: '**/*.war'
+	    deploy adapters: [tomcat9(credentialsId: 'bfda19c6-2e25-4428-b56e-dd079052d2e7', path: '', url: 'http://172.31.60.86:8080')], contextPath: 'prodapp5', war: '**/*.war'
 		}
 	 }
    }
